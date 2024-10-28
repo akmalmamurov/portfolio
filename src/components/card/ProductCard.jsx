@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const ProductCard = ({ title, image, des, github, website }) => {
   return (
     <div className="flex flex-col w-full h-auto px-12 py-10 rounded-lg shadow-shadowOne bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 transition-colors duration-1000">
-      <div className="w-full h-[80%] overflow-hidden rounded-lg">
+      <div className="w-full overflow-hidden rounded-t-lg ">
         <Link to={website} target="_blank">
           <img
-            className="object-cover w-full duration-300 h-60 group-hover:scale-110"
+            className="object-cover w-full duration-300 rounded-t-lg h-60 group-hover:scale-110"
             src={image}
             alt={title}
           />

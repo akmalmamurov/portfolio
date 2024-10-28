@@ -1,6 +1,7 @@
+import { Link } from "react-scroll";
+
 import { logo2 } from "@/assets/images";
 import { navLinksData } from "@/data";
-import { Link } from "react-scroll";
 
 export const Navbar = () => {
   return (
