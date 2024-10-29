@@ -1,4 +1,4 @@
-import { skillsLeft } from "@/data";
+import { skillsLeft, skillsRight } from "@/data";
 import { motion } from "framer-motion";
 import SkillBar from "../card/SkillBar";
 export const Skills = () => {
@@ -18,7 +18,7 @@ export const Skills = () => {
           ))}
         </div>
         <div className="w-1/2">
-          {skillsLeft.map((item, index) => (
+          {skillsRight.map((item, index) => (
             <SkillBar key={index} {...item} />
           ))}
         </div>

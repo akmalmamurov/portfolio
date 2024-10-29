@@ -1,46 +1,47 @@
-export const skillsLeft = [
+export const skillsRight = [
   {
-    skill: "JavaScript",
+    skill: "ReactJS",
     percentage: 100,
   },
   {
-    skill: "typeScript",
+    skill: "NextJS",
+    percentage: 100,
+  },
+
+  {
+    skill: "Redux",
     percentage: 100,
   },
   {
-    skill: "HTML",
+    skill: "Rtk Query",
     percentage: 100,
   },
   {
-    skill: "CSS",
-    percentage: 90,
-  },
-  {
-    skill: "SCSS",
+    skill: "Postman",
     percentage: 100,
   },
   {
-    skill: "Bootstrap",
+    skill: "Zustand",
     percentage: 100,
   },
   {
-    skill: "TailwindCSS",
+    skill: "GraphQL",
     percentage: 100,
   },
   {
-    skill: "MaterialUI",
+    skill: "Tanstack Query",
     percentage: 100,
   },
   {
-    skill: "AntdDesign",
+    skill: "React-hook-form",
     percentage: 100,
   },
   {
-    skill: "ShadcnUI",
+    skill: "Yup",
     percentage: 100,
   },
   {
-    skill: "ChakraUI",
+    skill: "React-auth-kit",
     percentage: 100,
   },
 ];
