@@ -5,8 +5,8 @@ import { navLinksData } from "@/data";
 
 export const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 border-b border-gray-600 w-fullmx-auto bg-bodyColor navbar font-titleFont">
-      <div className="flex items-center justify-between h-24 px-16 mx-auto max-w-screen-2xl ">
+    <nav className="sticky top-0 z-50 w-full h-24 px-5 bg-bodyColor font-titleFont">
+      <div className="flex items-center justify-between w-full h-full border-b border-b-gray-600 ">
         <div className="flex items-center gap-2">
           <div className="w-[60px] h-[60px] rounded-full border p-2 border-lightText">
             <img src={logo2} alt="logo" className="w-full h-full " />

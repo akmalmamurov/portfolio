@@ -4,7 +4,6 @@ import Title from "@/components/title/Title";
 import Skills from "./Skills";
 import Education from "./Education";
 import Experience from "./Experience";
-import Achievements from "./Achievements";
 
 const Resume = () => {
   const [activeTab, setActiveTab] = useState("education");
