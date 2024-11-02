@@ -13,7 +13,7 @@ const Resume = () => {
         <Title title={"7+ months of experience"} des={"My Resume"} />
       </div>
       <div>
-        <ul className="grid w-full grid-cols-3">
+        <ul className="grid w-full grid-cols-1 gap-5 lg:gap-0 md:grid-cols-2 lg:grid-cols-3">
           {resumeTabs.map((el, index) => (
             <li
               key={index}

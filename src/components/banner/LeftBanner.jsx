@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiRedux } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -18,7 +19,7 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-1/2">
+    <div className="flex flex-col w-full gap-20 lgl:w-1/2">
       <div className="flex flex-col gap-5 ">
         <h4 className="text-lg font-normal uppercase">welcome to my world</h4>
         <h1 className="text-5xl font-bold text-white">
@@ -45,15 +46,28 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
+            <Link
+              to="https://t.me/akmalmamuroff"
+              target="_blank"
+              className="bannerIcon"
+            >
               <FaTelegramPlane />
-            </span>
-            <span className="bannerIcon">
+            </Link>
+            <Link
+              to={"https://www.facebook.com/akmal.mamuroff.5"}
+              target="_blank"
+              className="bannerIcon"
+            >
+              <FaFacebookF />
+            </Link>
+
+            <Link
+              to={"https://www.linkedin.com/in/akmal-ma-murov-554003259/"}
+              target="_blank"
+              className="bannerIcon"
+            >
               <FaLinkedinIn />
-            </span>
+            </Link>
           </div>
         </div>
         <div>

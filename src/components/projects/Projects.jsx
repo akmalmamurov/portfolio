@@ -14,7 +14,7 @@ const Projects = () => {
           des={"My Projects"}
         />
       </div>
-      <div className="grid grid-cols-3 gap-14">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3 xl:gap-14">
         {productsData.map((el, index) => (
           <ProductCard key={index} {...el} />
         ))}

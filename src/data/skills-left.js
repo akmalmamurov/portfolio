@@ -13,7 +13,7 @@ export const skillsLeft = [
   },
   {
     skill: "CSS",
-    percentage: 90,
+    percentage: 100,
   },
   {
     skill: "SCSS",

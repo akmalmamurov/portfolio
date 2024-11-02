@@ -11,7 +11,7 @@ const Experience = () => {
         <p className="text-sm text-designColor tracking-[4px]">2024</p>
         <p className="text-4xl font-bold">Job Experience</p>
       </div>
-      <div className="flex gap-20">
+      <div className="grid grid-cols-1 gap-20 xl:grid-cols-2">
         <div>
           <div className="mt-14  border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
             {experienceData.map((item, index) => (

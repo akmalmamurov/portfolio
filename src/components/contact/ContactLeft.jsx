@@ -4,7 +4,7 @@ import { FaFacebookF, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 const ContactLeft = () => {
   return (
-    <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col gap-8">
+    <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center lgl:mb-0 mb-5">
       <img
         src={contactImg}
         alt="contactImg"
@@ -14,9 +14,13 @@ const ContactLeft = () => {
         <h3 className="text-3xl font-bold text-white">Akmal Mamuroff</h3>
         <p className="text-lg font-normal text-gray-400">Frontend Developer</p>
         <p className="text-base tracking-wide text-gray-400">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ad
-          quibusdam labore fugit, voluptatem tenetur delectus omnis eligendi
-          reprehenderit eum.
+        If you're in search of a skilled JavaScript developer, you've
+come to the right place. I specialize in building, optimizing,
+and scaling high-performance applications. With a focus on
+delivering seamless, efficient solutions, I can help bring your
+vision to life—whether it's creating new software or
+enhancing existing projects for maximum impact.
+
         </p>
         <p className="flex items-center gap-2 text-base text-gray-400">
           Phone:{" "}
