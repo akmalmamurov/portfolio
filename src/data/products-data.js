@@ -1,5 +1,15 @@
 export const productsData = [
   {
+    title: "Marketplace Freelance Project",
+    des: `I developed a modern MarketPlace website and a powerful Admin Panel using React.js. The project focused on product
+management, user monitoring, and creating an efficient
+interface. Special attention was given to providing a
+convenient and functional experience for users.`,
+    image: "/images/mg.png",
+    github: "https://github.com/akmalmamurov/mg-stationery",
+    website: "https://mg-stationery.vercel.app/",
+  },
+  {
     title: "QR Code Generator",
     des: `This project is a modern QR code generator platform updated with innovative solutions for product search, time management, and overall management. It includes personalized features:
 This platform is a powerful tool designed for organizations and entrepreneurs to enhance the efficiency of product management, quick search, and automation processes. Through a reliable and user-friendly interface at every step, organizations can further develop and monitor their activities.`,

@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaTelegram, FaTelegramPlane } from "react-icons/fa";
 import Logo from '../logo/Logo';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -8,15 +9,15 @@ const Footer = () => {
       <div className="flex flex-col w-full h-full gap-8">
         <Logo/>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <Link to={"https://www.facebook.com/akmal.mamuroff.5"} target="_blank" className="bannerIcon">
             <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
+          </Link>
+          <Link to={"https://t.me/akmalmamuroff"} target="_blank"  className="bannerIcon">
+            <FaTelegramPlane />
+          </Link>
+          <Link to={"https://www.linkedin.com/in/akmal-ma-murov-554003259/"} target="_blank" className="bannerIcon">
             <FaLinkedinIn />
-          </span>
+          </Link>
         </div>
       </div>
       <div className="w-full h-full">
