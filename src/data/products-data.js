@@ -7,7 +7,14 @@ interface. Special attention was given to providing a
 convenient and functional experience for users.`,
     image: "/images/mg.png",
     github: "https://github.com/akmalmamurov/mg-stationery",
-    website: "https://mg-stationery.vercel.app/",
+    website: "https://mgkans.uz/",
+  },
+  {
+    title: "Shoppers ecommerce",
+    des: "Shoppers Ecommerce is a modern, feature-rich e-commerce platform designed for seamless product browsing, selection, and ordering. Built with Sanity CMS for efficient content management, the platform offers a dynamic Studio interface for managing product inventory. Users can effortlessly explore a wide range of products, add them to their cart, and place orders with ease.",
+    image: "/images/project.png",
+    github: "https://github.com/akmalmamurov/shopers-ts",
+    website: "https://shoppers-apps1.vercel.app/",
   },
   {
     title: "QR Code Generator",

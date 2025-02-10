@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaLinkedinIn, FaTelegram, FaTelegramPlane } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn,  FaTelegramPlane } from "react-icons/fa";
 import Logo from '../logo/Logo';
 import { Link } from 'react-router-dom';
 
